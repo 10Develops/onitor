@@ -1,5 +1,5 @@
 # Onitor-Browser [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Onitor%20Browser%20source%20code%20on%20Github&url=https://github.com/10Develops/onitor&via=10develops&hashtags=onitorbrowser,10develops,uwp)
-Free browser app.
+Free web browser app.
 
 ## Features
 * Tabbed browsing (planned)
