@@ -10,6 +10,6 @@ Free browser app.
 * Proxy server support (planned)
 * History and Bookmarks (planned)
 * Search engine support
-* Set starting page
+* Set start page
 * Download manager (planned)
 * InPrivate mode (planned)
