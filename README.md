@@ -2,7 +2,7 @@
 Free web browser app.
 
 ## Features
-* Tabbed browsing (planned)
+* Tabbed browsing (since 0.9.6)
 * Back and forward
 * Refresh and stop
 * Display both Desktop and Mobile versions of website
