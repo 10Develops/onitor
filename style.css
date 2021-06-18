@@ -1,0 +1,246 @@
+*
+{
+	font-family: Segoe UI;
+}
+
+ul
+{
+}
+
+li
+{
+	display: block;
+	color: white;
+	float: left;
+	text-align: center;
+	padding: 4px;
+	border: 2px solid white;
+	border-radius: 4px;
+	background: #1F1F1F;
+	margin-left: 4px;
+	margin-bottom: 2px;
+	width: 80px;
+	height: 20px;
+}
+
+a
+{
+	color: 	#FF9;
+	text-shadow: 2px 2px 4px black;
+}
+
+h1
+{
+	color: 	white;
+}
+
+h2
+{
+	color:	white;
+}
+
+h3
+{
+	color: 	white;
+}
+
+p
+{
+	color: 	white;
+}
+
+#menu-left
+{
+	position: absolute;
+	top: -8px;
+	left: -25px;
+}
+
+#menu-right
+{
+	position: absolute;
+	top: 40px;
+	right: 2px;
+	z-index: 2;
+}
+
+#getit
+{
+	position: absolute;
+	right: 6px;
+}
+
+#text
+{
+	position: relative;
+	background: #1F1F1F;
+	margin-top: 2.5cm;
+	margin-bottom: 5mm;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: calc(22vw + 400px);
+	width: calc(88% - 12vw + 60px);
+	min-height: calc(24vw + 160px);
+	border: 1.5px solid white;
+	padding: 2px;
+	padding-bottom: 8px;
+}
+
+#center-text{
+	text-align: center;
+}
+
+#logo
+{
+	position: relative;
+	margin-top: 12px;
+	margin-left: 10px;
+	float: left;
+}
+
+#header
+{
+	font-size: 26px;
+	margin-top: 12px;
+	margin-right: 4%;
+	position: relative;
+	text-align: center;
+}
+
+.dropdown{
+	width: 80px;
+	height: 19px;
+	position: relative;
+	right: 20%;
+}
+
+.dropdown-content{
+	display: none;
+	padding-top: 6px;
+	margin-left: -50px;
+	min-width: 100%;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+#current-version
+{
+	position: absolute;
+	top: 40px;
+	left: auto;
+}
+
+#download
+{
+	border: 2px solid white;
+	background: #014421;
+	height: 35px;
+	width: 80px;
+	color: white;
+	border-radius: 4px;
+}
+
+b
+{
+	margin-top:	-40px;
+}
+
+body
+{
+	background:	black;
+	overflow-y: auto;
+}
+
+@media only screen and (min-width: 350px) {
+	#menu-right
+	{
+		top: -8px;
+	}
+}
+
+@media only screen and (min-height: 1200px) {
+	#text{
+		min-height: calc(20em + 8vw);
+	}
+}
+
+@media only screen and (orientation:landscape) {
+	#menu-right
+	{
+		top: -8px;
+	}
+
+	#current-version
+	{	
+		position: absolute;
+		top: 95px;
+		right: 10px;
+		max-width: 16vw;
+		word-wrap: break-word;
+	}
+
+	#text
+	{
+		margin-top: calc(6.5vw + 6mm);
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: calc(5vh + 7vw);
+		max-width: calc(48vw);
+		width: calc(62% - 12vw);
+		min-height: calc(22vw + 120px);
+	}
+}
+
+@media (prefers-color-scheme: light) { 
+	body
+	{
+		background: white;
+	}	
+
+	li
+	{
+		color: black;
+		border: 2px solid black;
+		background: #E6E6E6;
+	}
+
+	#text
+	{
+		border: 1.5px solid black;
+		background: #E6E6E6;
+	}
+
+	h1
+	{
+		color: 	black;
+	}
+	
+	h2
+	{
+		color:	black;
+	}
+	
+	h3
+	{
+		color: 	black;
+	}
+	
+	p
+	{
+		color: 	black;
+	}
+
+	#download
+	{
+		border: 2px solid black;
+	}
+ }
+
+@media only screen and (min-width: 2400px) {
+	#text{
+		max-width: calc(26em + 22vw);
+		min-height: calc(22em + 8vw);
+	}
+}
