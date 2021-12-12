@@ -8,27 +8,33 @@
 		<link type="text/css" rel="stylesheet" href="onitorLightTheme.css"/>
 		<script type="text/javascript" src="script.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="UWP անվճար աղբյուրի կոդի և տեքստային խմբագրիչ հավելում:">
+		<meta name="description" content="UWP անվճար վեբ դիտարկիչ հավելում:">
 		<meta name="onitor-theme" content="true"/>
 	</head>
 	<body>
 		<div id="menu-left">
 			<ul>
-				<li><b>Տնէջ</b></li>
+				<li class="navbar">
+					<b>Տնէջ</b>
+				</li>
 			</ul>
 		</div>
 		<div id="menu-right">
 			<ul>
-				<li class="dropdown" onclick="ShowDropdown();">Language
+				<li class="navbar dropdown" onclick="ShowDropdown(this, 'dropdown-content')">Language
 					<ul class="dropdown-content">
-						<li><a href="index.html">English</a></li>					
-						<li><a href="index-ru.html">Русский</a></li>
+						<li class="navbar">
+							<a href="index.html">English</a>
+						</li>					
+						<li class="navbar">
+							<a href="index-ru.html">Русский</a>
+						</li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 		<div id="current-version">
-				<p style="font-size: 15px;">Ներկայիս տարբերակը՝ 0.0.1<br>Հաջորդ տարբերակը՝ 0.9.6</p>
+			<p style="font-size: 15px;">Ներկայիս տարբերակը՝ 0.0.1<br>Հաջորդ տարբերակը՝ 0.9.6</p>
 		</div>
 		<div id="text">
 			<img src="site_assets/logo.png" height="32px" width="32px" id="logo" />
