@@ -2,18 +2,18 @@
 Free web browser app.
 
 ## Features
-* Tabbed browsing (since 0.9.6)
-* Light and dark themes support, including on sites* (since 0.9.6)
+* Tabbed browsing
+* Light and dark themes support, including on sites*
 * Back and forward
 * Refresh and stop
 * Display both Desktop and Mobile versions of website
 * Camera and microphone, web notifications access or Location permissions
 * Proxy server support (planned)
-* Bookmarks (since 0.9.6)
+* Bookmarks
 * History (planned)
-* Search engine support, including searching texts with search engines (Bing, Google, and Yahoo) (since 0.9.6)
+* Search engine support, including searching texts with search engines (Bing, Google, and Yahoo)
 * Set start page
-* Basic Download manager (since 0.9.6)
+* Basic Download manager
 * InPrivate mode (planned)
 * Print
 * Share
