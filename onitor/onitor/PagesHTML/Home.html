@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="onitor-theme" content="true" />
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                if(localStorage.getItem('firsttime') == undefined){
+                    localStorage.setItem('firsttime', 1);
+                }
+
+                if(localStorage.getItem('firsttime') == 1){
+                    document.getElementById("wlk").style.display = "block";
+                    localStorage.setItem('firsttime', 0);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="conteiner center">
+            <div class="header">
+                <img class="logo" src="assets/onitor.png" />
+                <h1>Onitor Browser</h1>
+            </div>
+            <div class="middle">
+                <h3 id="wlk">Welcome to Onitor!</h3>
+                <div class="box" onclick="FocusOnAddressBar()">
+                    <p>Search in the Web or enter address</p>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>

@@ -1,43 +1,51 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnitorBrowser", "onitor\OnitorBrowser.csproj", "{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnitorBrowser", "onitor\OnitorBrowser.csproj", "{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|ARM.ActiveCfg = Debug|ARM
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|ARM.Build.0 = Debug|ARM
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|ARM.Deploy.0 = Debug|ARM
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|x64.ActiveCfg = Debug|x64
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|x64.Build.0 = Debug|x64
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|x64.Deploy.0 = Debug|x64
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|x86.ActiveCfg = Debug|x86
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|x86.Build.0 = Debug|x86
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Debug|x86.Deploy.0 = Debug|x86
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|ARM.ActiveCfg = Release|ARM
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|ARM.Build.0 = Release|ARM
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|ARM.Deploy.0 = Release|ARM
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|x64.ActiveCfg = Release|x64
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|x64.Build.0 = Release|x64
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|x64.Deploy.0 = Release|x64
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|x86.ActiveCfg = Release|x86
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|x86.Build.0 = Release|x86
-		{77CEE5C1-02CE-4EBA-B85E-74A3ED42A3E5}.Release|x86.Deploy.0 = Release|x86
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|ARM.Build.0 = Debug|ARM
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|ARM.Deploy.0 = Debug|ARM
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|ARM64.Build.0 = Debug|ARM64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|x64.ActiveCfg = Debug|x64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|x64.Build.0 = Debug|x64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|x64.Deploy.0 = Debug|x64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|x86.ActiveCfg = Debug|x86
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|x86.Build.0 = Debug|x86
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Debug|x86.Deploy.0 = Debug|x86
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|ARM.ActiveCfg = Release|ARM
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|ARM.Build.0 = Release|ARM
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|ARM.Deploy.0 = Release|ARM
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|ARM64.ActiveCfg = Release|ARM64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|ARM64.Build.0 = Release|ARM64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|ARM64.Deploy.0 = Release|ARM64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|x64.ActiveCfg = Release|x64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|x64.Build.0 = Release|x64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|x64.Deploy.0 = Release|x64
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|x86.ActiveCfg = Release|x86
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|x86.Build.0 = Release|x86
+		{A5387CE5-3FAB-4B0A-93C3-9A936DB564C5}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {78B63800-5598-4F26-B6AA-8A8DF9FFA71E}
+		SolutionGuid = {E07808E9-7826-49FE-B49C-AFA7E9F2AF0E}
 	EndGlobalSection
 EndGlobal

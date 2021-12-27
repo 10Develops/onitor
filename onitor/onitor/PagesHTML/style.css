@@ -1,0 +1,128 @@
+body {
+    background: black;
+    font-family: 'Segoe UI';
+}
+
+body[onitor-theme='light'] {
+    background: white;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+h1[onitor-theme='light'], h2[onitor-theme='light'], h3[onitor-theme='light'], p[onitor-theme='light'] {
+    color: black;
+}
+
+.center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.conteiner {
+    max-width: 600px;
+    height: auto;
+    max-height: 240px;
+}
+
+.header {
+    animation-name: MG;
+    animation-duration: 1s;
+    margin: auto;
+    width: 318px;
+    overflow: hidden;
+    height: 98px;
+}
+
+@keyframes MG {
+    from {
+        margin-top: 100px;
+    }
+
+    to {
+        margin-top: 0;
+    }
+}
+
+.middle {
+    opacity: 0;
+    animation-name: VS;
+    animation-duration: 1s;
+    animation-delay: .8s;
+    animation-fill-mode: forwards;
+    max-width: 600px;
+}
+
+@keyframes VS {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.main {
+    max-height: 420px;
+    height: calc(16vw + 16vh + 6em);
+    width: calc(16vw + 16vh + 6em);
+    max-width: 420px;
+    border: 1.5px solid white;
+    background: #1F1F1F;
+    text-align: center;
+}
+
+.main[onitor-theme='light'] {
+    border: 1.5px solid black;
+    background: #E6E6E6;
+}
+
+.logo {
+    width: 92px;
+    float: left;
+}
+
+.header h1 {
+    width: 214px;
+    left: -50px;
+    padding: 1px;
+    float: right;
+    text-align: left;
+    font-size: 1.8em;
+}
+
+.middle h3 {
+    display: none;
+    text-align: center;
+}
+
+.box {
+    cursor: text;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    margin: auto;
+    width: 96%;
+    max-width: 600px;
+}
+
+.box[onitor-theme='light'] {
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgb(55, 55, 55);
+}
+
+.box p {
+    color: gray;
+    margin-left: 14px;
+}
+
+.box:hover {
+    transition: .4s;
+    border: 2px solid rgb(136, 253, 136);
+    box-shadow: 2px 2px 2px rgb(96, 213, 96);
+}
