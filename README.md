@@ -1,5 +1,5 @@
-# <a href="http://10develops.github.io/onitor"><img src="site_assets/logo.png" width="28"> Onitor Browser</a> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Onitor%20Browser%20source%20code%20on%20Github&url=https://github.com/10Develops/onitor&via=10develops&hashtags=onitorbrowser,10develops,uwp)
-Free web browser app.
+# <a href="http://10develops.github.io/onitor"><img src="/site_assets/logo.png" width="28"></a> Onitor Browser [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Onitor%20Browser%20source%20code%20on%20Github&url=https://github.com/10Develops/onitor&via=10develops&hashtags=onitorbrowser,10develops,uwp)
+<h4>Free web browser app.</h4>
 
 ## Features
 * Tabbed browsing
