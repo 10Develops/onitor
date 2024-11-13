@@ -18,7 +18,7 @@
 * Print
 * Share
 * Pin file to Start
-* 
+  
 ## Donate
 <table>
   <tr>
