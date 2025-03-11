@@ -17,7 +17,7 @@
 * InPrivate mode (planned)
 * Print
 * Share
-* Pin file to Start
+* Pin site to Start
   
 ## Donate
 <table>
