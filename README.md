@@ -1,6 +1,10 @@
 # <a href="http://10develops.github.io/onitor"><img src="/site_assets/logo.png" width="28"></a> Onitor Browser [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Onitor%20Browser%20source%20code%20on%20Github&url=https://github.com/10Develops/onitor&via=10develops&hashtags=onitorbrowser,10develops,uwp)
 <h4>Free web browser app.</h4>
 
+## Announcements
+* Announcing Onitor Browser for HaikuOS!
+* Announcing Onitor Browser 0.9.7 for UWP (Windows 11, Windows 10, Windows 10 Mobile)!
+
 ## Features
 * Tabbed browsing
 * Light and dark themes support, including on sites*
